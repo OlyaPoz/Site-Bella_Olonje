@@ -1,0 +1,28 @@
+.mobile_navbar {
+  background-color: var(--bg-color);
+display: flex;
+justify-content: space-between;
+
+min-width: 382px;
+padding: 17px 25px;
+}
+
+.content_logo {
+  max-width: 100%;
+  width: 104px;
+}
+
+.logo {
+  width: inherit;
+  object-fit: contain;
+  object-position: center;
+}
+
+.menu {
+margin: 23px 0;
+width: 40px;
+}
+
+.vector {
+margin-left: 13px;
+}
