@@ -1,3 +1,16 @@
 :root {
-  --bg-color: #FFFFFF;
+  --bg-txt-light-color: #FFFFFF;
+  --text-color: #737373;
+  --text-bg-color: #252B42;
+  --txt-btn-color: #FA4A0C;
+
+  font-size: 24px;
+  
+  font-family: "Montserrat";
+
+  padding: 0 10px;
+}
+
+.font-weight-bold{
+  font-weight: 700;
 }
