@@ -1,12 +1,15 @@
 .mobile-header-light-7{
 text-align: center;
 background-color: var(--bg-txt-light-color);
+padding: 50px 0 100px 0;
+
+
 }
 
 .text-content{
-  margin: 50px 0;
-  line-height: 1.2;
- 
+  
+  line-height: 1.2; 
+  padding-bottom: 50px;
   color: var(--text-color);
 }
 
@@ -25,20 +28,18 @@ padding: 15px 0;
   line-height: 1.4;
 }
 
-.big-btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  max-width: 236px;
+.big-btns {
+  display: block;
   margin: 0 auto;
+  
 }
 
 .big-btn-play, .big-btn-app{
   font-size: 1rem;
- 
+
+  width: 236px;
+  margin-bottom: 10px;
   padding: 15px 30px;
-  margin: 10px;
 
   border: solid 1px var(--txt-btn-color);
   border-radius: 30px;
@@ -49,6 +50,37 @@ padding: 15px 0;
 }
 
 .big-btn-app{
-  background-color: var(--bg-txt-light-color);
+  background-color: inherit;
   color: var(--txt-btn-color);
+}
+
+@media screen and (min-width: 576px) {
+  .mobile-header-light-7{
+    background-image: url('./bg-img/Rectangle\ 48.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    .text-content{
+      color: var(--bg-txt-light-color);
+    }
+
+    .heading{
+      font-size: 1rem;
+      }
+
+    .text-heading{
+      font-family: 'Poppins';
+      color: inherit;
+      }
+
+      .big-btns {
+       display: inline;
+      }
+
+      .big-btn-app{
+        color:  var(--bg-txt-light-color);
+        border: solid 1px  var(--bg-txt-light-color) ;
+      }
 }
