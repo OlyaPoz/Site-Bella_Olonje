@@ -1,0 +1,13 @@
+.text {
+  font-weight: 600;
+}
+.line {
+  margin: 50px 0;
+}
+
+@media screen and (min-width: 576px) {
+  .text-line-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

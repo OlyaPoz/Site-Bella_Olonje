@@ -1,19 +1,24 @@
 .group-54 {
-  position: absolute;
-  width: 417px;
-  height: 492px;
-  left: -11px;
-  top: 659px;
 
-  z-index: 1;
 }
 
 .rectangle-wrapper {
+  position: absolute;
+ width: 417px;
+ height: 492px;
  
 }
 
 .rectangle {
+  background-image: url('./img-gr/Rectangle.png');
+  
+width: 230px;
+height: 451px;
 }
 
 .rectangle1 {
+  background-image: url('./img-gr/Rectangle\ \(1\).png');
+width: 219px;
+height: 492px;
+left: 30%;
 }

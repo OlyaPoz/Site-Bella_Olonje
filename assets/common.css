@@ -7,7 +7,7 @@
   font-size: 24px;
   
   font-family: "Montserrat";
-
+  text-align: center;
   padding: 0 10px;
 
 }
@@ -18,4 +18,10 @@
 
 .jc-center {
   justify-content: center;
+}
+
+.bg-img-form {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
