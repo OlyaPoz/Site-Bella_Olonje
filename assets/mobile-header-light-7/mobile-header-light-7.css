@@ -1,40 +1,36 @@
-.mobile-header-light-7{
-text-align: center;
-background-color: var(--bg-txt-light-color);
-padding: 50px 0 100px 0;
-
-
+.mobile-header-light-7 {
+  text-align: center;
+  background-color: var(--bg-txt-light-color);
+  padding: 50px 0 100px 0;
 }
 
-.text-content{
-  
-  line-height: 1.2; 
+.text-content {
+  line-height: 1.2;
   padding-bottom: 50px;
   color: var(--text-color);
 }
 
-.heading{
-font-size: 0.66rem;
-
+.heading {
+  font-size: 0.66rem;
 }
 
-.text-heading{
-font-size: 1.3rem;
-color: var(--text-bg-color);
-padding: 15px 0;
+.text-heading {
+  font-size: 1.3rem;
+  color: var(--text-bg-color);
+  padding: 15px 0;
 }
 
-.text-offer{
+.text-offer {
   line-height: 1.4;
 }
 
 .big-btns {
   display: block;
   margin: 0 auto;
-  
 }
 
-.big-btn-play, .big-btn-app{
+.big-btn-play,
+.big-btn-app {
   font-size: 1rem;
 
   width: 236px;
@@ -43,44 +39,44 @@ padding: 15px 0;
 
   border: solid 1px var(--txt-btn-color);
   border-radius: 30px;
- 
+
   background-color: var(--txt-btn-color);
   color: var(--bg-txt-light-color);
-
 }
 
-.big-btn-app{
+.big-btn-app {
   background-color: inherit;
   color: var(--txt-btn-color);
 }
 
 @media screen and (min-width: 576px) {
-  .mobile-header-light-7{
+  .mobile-header-light-7 {
     background-image: url('./bg-img/Rectangle\ 48.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    }
+  }
 
-    .text-content{
-      color: var(--bg-txt-light-color);
-    }
+  .text-content {
+    color: var(--bg-txt-light-color);
+  }
 
-    .heading{
-      font-size: 1rem;
-      }
+  .heading {
+    font-size: 1rem;
+  }
 
-    .text-heading{
-      font-family: 'Poppins';
-      color: inherit;
-      }
+  .text-heading {
+    font-family: 'Poppins';
+    font-size: 1.7rem;
+    color: inherit;
+  }
 
-      .big-btns {
-       display: inline;
-      }
+  .big-btns {
+    display: inline;
+  }
 
-      .big-btn-app{
-        color:  var(--bg-txt-light-color);
-        border: solid 1px  var(--bg-txt-light-color) ;
-      }
+  .big-btn-app {
+    color: var(--bg-txt-light-color);
+    border: solid 1px var(--bg-txt-light-color);
+  }
 }
