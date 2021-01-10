@@ -14,3 +14,7 @@
 .font-weight-bold{
   font-weight: 700;
 }
+
+.jc-center {
+  justify-content: center;
+}
