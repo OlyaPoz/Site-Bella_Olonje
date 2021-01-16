@@ -10,4 +10,7 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  .line {
+    margin:0 0 50px 0;
+  }
 }

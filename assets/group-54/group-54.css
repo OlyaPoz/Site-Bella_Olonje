@@ -14,18 +14,18 @@
 
 .rectangle1 {
   background-image: url('./img-gr/Rectangle\ \(1\).png');
-  width: 159px;
-  height: 348px;
+  width: 169px;
+  height: 358px;
   left: 164px;
   top: 30px;
 }
 
-@media screen and (min-width: 496px) {
+@media screen and (min-width: 486px) {
   .rectangle-wrapper,
   .rectangle {
     width: 488px;
-    height: 550px;
-  
+    height: 620px;
+    top: -70px;
   }
   .rectangle {
     left: 20px
@@ -35,7 +35,7 @@
     width: 230px;
     height: 441px;
     left: 234px;
-    top: 10px;
+    top: 40px;
   }
 }
 
@@ -43,8 +43,8 @@
   .rectangle-wrapper,
   .rectangle {
     width: 508px;
-    height: 600px;
-  
+    height: 650px;
+    
   }
   .rectangle {
     left: 20px
@@ -54,7 +54,7 @@
     width: 245px;
     height: 491px;
     left: 254px;
-   
+    top: 30px;
   }
 }
 
@@ -62,8 +62,8 @@
   .rectangle-wrapper,
   .rectangle {
     width: 548px;
-    height: 640px;
-  
+    height: 700px;
+    top: -75px;
   }
   .rectangle {
     left: 50px
@@ -73,6 +73,6 @@
     width: 285px;
     height: 531px;
     left: 284px;
-    
+    top: 20px;
   }
 }
