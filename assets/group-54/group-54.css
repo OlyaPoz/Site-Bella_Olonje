@@ -1,12 +1,9 @@
-.group-54 {
-
-}
 
 .rectangle-wrapper,
 .rectangle {
-  width: 424px;
-  height: 492px;
-  left: 11px;
+  width: 324px;
+  height: 432px;
+  left: 5px;
   top: -54px;
   z-index: 1;
 }
@@ -17,13 +14,13 @@
 
 .rectangle1 {
   background-image: url('./img-gr/Rectangle\ \(1\).png');
-  width: 219px;
-  height: 408px;
-  left: 194px;
+  width: 159px;
+  height: 348px;
+  left: 164px;
   top: 30px;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 496px) {
   .rectangle-wrapper,
   .rectangle {
     width: 488px;
