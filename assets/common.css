@@ -12,6 +12,30 @@
 
 }
 
+.text-heading-h2 {
+  font-size: 1.3rem;
+  color: var(--text-bg-color);
+  padding: 15px 0;
+}
+
+.text-offer-h4 {
+  color: var(--text-color);
+  line-height: 1.4;
+}
+
+.marg-h2 {
+  margin: 30px 0;
+}
+
+.marg-h4 {
+  margin: 10px 50px;
+}
+
+.text-cont-h3{
+  color: var(--txt-btn-color);
+}
+
+
 .font-weight-bold{
   font-weight: 700;
 }
