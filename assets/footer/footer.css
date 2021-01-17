@@ -1,0 +1,57 @@
+.mobile_footer {
+  padding: 50px;
+}
+
+.content_foot-logo, .subtitle2 {
+  display: none;
+}
+
+.vectors {
+  width: 171px;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+.vect1, .vect2, .vect3 {
+  height: 41px;
+}
+
+.subtitle, .subtitle2 {
+font-size: 0.4rem;
+color: var(--text-bg-color);
+margin-top: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .mobile_footer {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 50px 20px 0 0;
+  }
+
+  .f-logo {
+    width: 246px;
+  }
+
+  .content_foot-logo, .subtitle2 {
+    display: inline-block;
+  }
+
+  .subtitle {
+    display: none;
+  }
+
+  .vectors, .subtitle2 {
+    margin-top: 30px;
+  }
+
+  .subtitle2 {
+    margin-top: 40px;
+  }
+
+
+}
