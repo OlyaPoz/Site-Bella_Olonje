@@ -1,0 +1,65 @@
+.mobile-hero-light-1 {
+  background-color: var(--text-bg-color);
+  margin-top: 490px;
+  padding: 110px 24px;
+}
+
+.text-content-mb {
+padding-bottom: 50px;
+}
+
+.head-mb2, .head-mb4 {
+  color: var(--bg-txt-light-color);
+}
+
+.head-mb4{
+  opacity: 75%;
+}
+
+.btns {
+  margin: 0 auto;
+}
+
+.btn-buy,
+.btn-try {
+  font-size: 0,6rem;
+
+  
+  margin-bottom: 10px;
+  padding: 15px;
+
+  border: solid 1px var(--txt-btn-color);
+  border-radius: 10px;
+
+  background-color: var(--txt-btn-color);
+  color: var(--bg-txt-light-color);
+}
+
+.btn-try {
+  padding: 15px 25px;
+
+  background-color: inherit;
+  border: solid 1px var(--bg-txt-light-color);
+}
+
+
+@media screen and (min-width: 576px) {
+  .mobile-hero-light-1 {
+    background-image: url('./Rectangle\ 47.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .btn-buy {
+    padding: 20px;
+  }
+  .btn-try {
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (min-width: 740px) { 
+  .mobile-hero-light-1 {
+    margin-top: 90px;
+  }
+}
