@@ -47,7 +47,8 @@
   }
 
   .text-content,
-  .text-offer {
+  .text-offer,
+  .heading {
     color: var(--bg-txt-light-color);
   }
 
