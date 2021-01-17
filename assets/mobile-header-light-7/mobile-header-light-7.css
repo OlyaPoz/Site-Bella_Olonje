@@ -9,6 +9,7 @@
 }
 
 .heading {
+  color: var(--text-color);
   font-size: 0.66rem;
 }
 
