@@ -1,10 +1,10 @@
 .mobile_navbar {
   background-color: var(--bg-txt-light-color);
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-min-width: 382px;
-padding: 17px 25px;
+  min-width: 382px;
+  padding: 17px 25px;
 }
 
 .content_logo {
@@ -19,12 +19,12 @@ padding: 17px 25px;
 }
 
 .menu {
-margin: 23px 0;
-width: 40px;
+  margin: 23px 0;
+  width: 40px;
 }
 
 .vector {
-margin-left: 13px;
+  margin-left: 13px;
 }
 
 @media screen and (min-width: 576px) {
@@ -34,5 +34,5 @@ margin-left: 13px;
 
   .menu {
     margin: 40px 0;
-    }
+  }
 }

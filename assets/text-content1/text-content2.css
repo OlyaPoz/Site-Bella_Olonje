@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.text2-wrapper{
+.text2-wrapper {
   margin-top: 520px;
 }
 
@@ -10,7 +10,6 @@
   background-image: url('./bg-img2-3/Rectangle\ \(2\).png');
   width: 320px;
   height: 500px;
-  
 }
 
 @media screen and (min-width: 450px) {
@@ -58,4 +57,3 @@
     left: 630px;
   }
 }
-

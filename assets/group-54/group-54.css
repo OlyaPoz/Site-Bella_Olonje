@@ -34,7 +34,7 @@
     top: -70px;
   }
   .rectangle {
-    left: 20px
+    left: 20px;
   }
 
   .rectangle1 {
@@ -50,19 +50,11 @@
     height: 500px;
   }
 
-  .rectangle-wrapper,
   .rectangle {
-    width: 508px;
-    height: 650px;
-    
-  }
-  .rectangle {
-    left: 20px
+    left: 20px;
   }
 
   .rectangle1 {
-    width: 245px;
-    height: 491px;
     left: 254px;
     top: 30px;
   }
@@ -73,19 +65,11 @@
     height: 520px;
   }
 
-  .rectangle-wrapper,
   .rectangle {
-    width: 548px;
-    height: 700px;
-    top: -75px;
-  }
-  .rectangle {
-    left: 50px
+    left: 50px;
   }
 
   .rectangle1 {
-    width: 285px;
-    height: 531px;
     left: 284px;
     top: 20px;
   }

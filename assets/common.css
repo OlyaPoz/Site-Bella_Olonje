@@ -1,15 +1,14 @@
 :root {
-  --bg-txt-light-color: #FFFFFF;
+  --bg-txt-light-color: #ffffff;
   --text-color: #737373;
-  --text-bg-color: #252B42;
-  --txt-btn-color: #FA4A0C;
+  --text-bg-color: #252b42;
+  --txt-btn-color: #fa4a0c;
 
   font-size: 24px;
-  
-  font-family: "Montserrat";
+
+  font-family: 'Montserrat';
   text-align: center;
   padding: 0 10px;
-
 }
 
 .text-heading-h2 {
@@ -31,12 +30,11 @@
   margin: 10px 50px;
 }
 
-.text-cont-h3{
+.text-cont-h3 {
   color: var(--txt-btn-color);
 }
 
-
-.font-weight-bold{
+.font-weight-bold {
   font-weight: 700;
 }
 
@@ -49,9 +47,9 @@
   background-size: cover;
   background-position: center;
 
-  position: absolute; 
+  position: absolute;
 }
 
-.position-rel{
+.position-rel {
   position: relative;
 }
