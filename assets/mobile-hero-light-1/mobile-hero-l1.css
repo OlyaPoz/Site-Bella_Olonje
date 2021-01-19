@@ -42,6 +42,11 @@
   border: solid 1px var(--bg-txt-light-color);
 }
 
+.btn-buy:hover,
+.btn-try:hover{
+background-color: var(--btn-hover-bg-color);
+}
+
 @media screen and (min-width: 576px) {
   .mobile-hero-light-1 {
     background-image: url('./Rectangle\ 47.png');

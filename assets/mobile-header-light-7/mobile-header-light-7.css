@@ -38,6 +38,11 @@
   color: var(--txt-btn-color);
 }
 
+.big-btn-play:hover,
+.big-btn-app:hover {
+  background-color: var(--btn-hover-bg-color);
+}
+
 @media screen and (min-width: 576px) {
   .mobile-header-light-7 {
     background-image: url('./bg-img/Rectangle\ 48.png');
