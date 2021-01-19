@@ -11,8 +11,7 @@
 @media screen and (min-width: 450px) {
   .rect3-wrapper {
     width: 350px;
-    left: 50px;
-    margin: 0 auto;
+    left: 20%;
   }
 }
 
@@ -47,6 +46,6 @@
 @media screen and (min-width: 992px) {
   .rect3-wrapper {
     width: 370px;
-    left: 110px;
+    left: 10%;
   }
 }

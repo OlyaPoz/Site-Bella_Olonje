@@ -15,7 +15,7 @@
 @media screen and (min-width: 450px) {
   .rect2-wrapper {
     width: 350px;
-    left: 50px;
+    left: 20%;
   }
 }
 
@@ -43,7 +43,7 @@
     margin: 0;
   }
   .rect2-wrapper {
-    left: 480px;
+    left: 50%;
   }
 }
 
@@ -54,6 +54,6 @@
 
   .rect2-wrapper {
     width: 370px;
-    left: 630px;
+    left: 60%;
   }
 }
