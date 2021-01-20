@@ -28,23 +28,20 @@
   margin-bottom: 10px;
   padding: 15px;
 
-  border: solid 1px var(--txt-btn-color);
+  border: solid 1px var(--bg-txt-light-color);
   border-radius: 10px;
 
-  background-color: var(--txt-btn-color);
+  background-color:  inherit;
   color: var(--bg-txt-light-color);
 }
 
 .btn-try {
   padding: 15px 25px;
-
-  background-color: inherit;
-  border: solid 1px var(--bg-txt-light-color);
 }
 
 .btn-buy:hover,
 .btn-try:hover{
-background-color: var(--btn-hover-bg-color);
+background-color: var(--txt-btn-color);
 }
 
 @media screen and (min-width: 576px) {

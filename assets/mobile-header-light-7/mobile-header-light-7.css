@@ -29,18 +29,14 @@
   border: solid 1px var(--txt-btn-color);
   border-radius: 30px;
 
-  background-color: var(--txt-btn-color);
-  color: var(--bg-txt-light-color);
-}
-
-.big-btn-app {
   background-color: inherit;
   color: var(--txt-btn-color);
 }
 
 .big-btn-play:hover,
 .big-btn-app:hover {
-  background-color: var(--btn-hover-bg-color);
+  background-color: var( --txt-btn-color);
+  color: var(--bg-txt-light-color);
 }
 
 @media screen and (min-width: 576px) {
@@ -71,7 +67,8 @@
     display: inline;
   }
 
-  .big-btn-app {
+  .big-btn-app,
+  .big-btn-play {
     color: var(--bg-txt-light-color);
     border: solid 1px var(--bg-txt-light-color);
   }
