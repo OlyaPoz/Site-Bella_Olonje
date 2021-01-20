@@ -23,6 +23,10 @@
   line-height: 1.4;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .marg-h2 {
   margin: 30px 0;
 }
