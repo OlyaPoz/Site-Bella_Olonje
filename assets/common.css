@@ -9,34 +9,26 @@
 
   font-family: 'Montserrat';
   text-align: center;
-  padding: 0 10px;
+  
 }
 
-.text-heading-h2 {
+.orange-heading {
+  color: var(--txt-btn-color);
+}
+
+.gray-heading {
   font-size: 1.3rem;
   color: var(--text-bg-color);
   padding: 15px 0;
 }
 
-.text-offer-h4 {
+.light-gray-heading {
   color: var(--text-color);
   line-height: 1.4;
 }
 
 .cursor {
   cursor: pointer;
-}
-
-.marg-h2 {
-  margin: 30px 0;
-}
-
-.marg-h4 {
-  margin: 10px 50px;
-}
-
-.text-cont-h3 {
-  color: var(--txt-btn-color);
 }
 
 .font-weight-bold {
@@ -47,14 +39,4 @@
   justify-content: center;
 }
 
-.bg-img-form {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 
-  position: absolute;
-}
-
-.position-rel {
-  position: relative;
-}

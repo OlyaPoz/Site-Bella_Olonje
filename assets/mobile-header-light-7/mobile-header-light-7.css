@@ -1,6 +1,6 @@
 .mobile-header-light-7 {
   background-color: var(--bg-txt-light-color);
-  padding: 50px 0 100px 0;
+  padding: 50px 0 20px 0;
 }
 
 .text-content {
@@ -13,13 +13,13 @@
   font-size: 0.66rem;
 }
 
-.big-btns {
+.big-btns-wrapper {
   display: block;
   margin: 0 auto;
+ 
 }
 
-.big-btn-play,
-.big-btn-app {
+.big-btn{
   font-size: 1rem;
 
   width: 236px;
@@ -33,8 +33,7 @@
   color: var(--txt-btn-color);
 }
 
-.big-btn-play:hover,
-.big-btn-app:hover {
+.big-btn:hover{
   background-color: var( --txt-btn-color);
   color: var(--bg-txt-light-color);
 }
@@ -45,6 +44,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    padding-bottom: 100px;
   }
 
   .text-content,
@@ -63,12 +64,11 @@
     color: inherit;
   }
 
-  .big-btns {
+  .big-btns-wrapper {
     display: inline;
   }
 
-  .big-btn-app,
-  .big-btn-play {
+  .big-btn {
     color: var(--bg-txt-light-color);
     border: solid 1px var(--bg-txt-light-color);
   }

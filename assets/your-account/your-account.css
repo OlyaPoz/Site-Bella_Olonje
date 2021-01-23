@@ -1,0 +1,30 @@
+.your-account {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.create-account{
+
+}
+
+.new-account-info, .shop-food-info{
+margin: 50px 0;
+}
+
+.orange-heading{
+
+}
+
+.gray-heading{
+margin: 30px 0;
+}
+
+.light-gray-heading{
+margin: 0 50px;
+}
+
+.tel-account{
+  
+}
+

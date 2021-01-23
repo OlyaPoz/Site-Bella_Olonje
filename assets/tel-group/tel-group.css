@@ -1,0 +1,17 @@
+.tel-group {
+  padding-bottom: 50px;
+}
+
+.rectangle-wrapper {
+  display: flex;
+}
+
+.rectangle1 {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 576px) {
+  .rectangle-wrapper {
+    margin-top: -75px;
+  }
+}

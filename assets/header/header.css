@@ -1,13 +1,11 @@
-.mobile_navbar {
-  background-color: var(--bg-txt-light-color);
+.mobile-navbar {
   display: flex;
   justify-content: space-between;
-
-  min-width: 382px;
-  padding: 17px 25px;
+  
+  padding: 17px 25px 17px 5px;
 }
 
-.content_logo {
+.content-logo {
   max-width: 100%;
   width: 104px;
 }
@@ -28,7 +26,11 @@
 }
 
 @media screen and (min-width: 576px) {
-  .content_logo {
+  .mobile-navbar {
+    padding: 20px 35px 20px 10px;
+  }
+
+  .content-logo {
     width: 206px;
   }
 
