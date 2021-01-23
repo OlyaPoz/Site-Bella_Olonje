@@ -1,30 +1,45 @@
-.your-account {
-  display: flex;
-  flex-direction: column;
- 
+:root {
+  --margin-top-bottom: 50px 0;
 }
 
-.create-account{
-
+.new-account-info,
+.shop-food-info {
+  margin: var(--margin-top-bottom);
+  padding: 30px;
+}
+.gray-heading-marg {
+  margin: 30px 0;
+}
+.light-gray-heading-marg {
+  margin: 0 50px;
 }
 
-.new-account-info, .shop-food-info{
-margin: 50px 0;
+@media screen and (min-width: 768px) {
+  .create-account,
+  .shop-food {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--margin-top-bottom);
+  }
+
+  .create-account {
+    flex-direction: row-reverse;
+  }
+
+  .new-account-info,
+  .shop-food-info {
+    max-width: 568px;
+    text-align: left;
+    padding: 0 0 0 30px;
+  }
+
+  .shop-food-info {
+    padding: 0 30px 0 0;
+  }
+
+  .gray-heading-marg,
+  .light-gray-heading-marg {
+    margin: 0;
+  }
 }
-
-.orange-heading{
-
-}
-
-.gray-heading{
-margin: 30px 0;
-}
-
-.light-gray-heading{
-margin: 0 50px;
-}
-
-.tel-account{
-  
-}
-

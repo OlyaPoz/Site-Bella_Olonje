@@ -1,6 +1,6 @@
 .mobile-hero-light-1 {
   background-color: var(--text-bg-color);
-  margin-top: 490px;
+  margin-top: 50px;
   padding: 110px 24px;
 }
 
@@ -8,12 +8,12 @@
   padding-bottom: 50px;
 }
 
-.head-mb2,
-.head-mb4 {
+.head-mb,
+.text-mb {
   color: var(--bg-txt-light-color);
 }
 
-.head-mb4 {
+.text-mb {
   opacity: 75%;
 }
 
@@ -60,8 +60,4 @@ background-color: var(--txt-btn-color);
   }
 }
 
-@media screen and (min-width: 740px) {
-  .mobile-hero-light-1 {
-    margin-top: 90px;
-  }
-}
+
