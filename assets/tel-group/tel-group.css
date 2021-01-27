@@ -6,12 +6,24 @@
   display: flex;
 }
 
+.rectangle-right, .rectangle-left{
+  width: 50%;
+}
+
 .rectangle-right {
   margin-top: 50px;
+}
+
+.tel-img {
+  width: 100%;
 }
 
 @media screen and (min-width: 576px) {
   .rectangle-wrapper {
     margin-top: -75px;
+  }
+
+  .rectangle-right, .rectangle-left, .tel-img{
+    width: 280px;
   }
 }
